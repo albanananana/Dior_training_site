@@ -63,7 +63,14 @@ body {
 	margin-bottom: 150px;
 }
 
+.top-slide {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
 .top-slide__inner{
+	min-height: 700px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -96,4 +103,31 @@ body {
 	padding: 21px 55px;
 	border: 1px solid;
 	display: inline-block;
+	margin-left: auto;
+	transition: all .5s ease;
+}
+
+.top-slide__btn:hover{
+	color: #fff;
+	background-color: #7449BB;
+}
+
+.swiper-button-prev:after, 
+.swiper-button-next:after {
+	content: none;
+}
+
+.container-arrow {
+	position: relative;
+	max-width: 1200px;
+}
+
+.top .swiper{
+	padding-bottom: 50px;
+}
+
+.swiper-button-next {
+	left: 75px;
+	right: auto;
+	bottom: ;
 }
