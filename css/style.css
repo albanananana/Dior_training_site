@@ -48,10 +48,31 @@ body {
 	margin-right: 185px;
 }
 
-.menu__item{
+.menu__item {
 	font-size: 12px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
+	transition: all 1.5s ease;
+}
+
+.menu__link {
+	text-decoration: none;
+	position: relative;
+}
+
+.menu__link::after {
+	content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px; /* Adjust thickness */
+  background-color: #7449BB; /* Set underline color */
+  transition: all 0.5s ;
+}
+
+.menu__link:hover::after {
+  width: 100%;
 }
 
 .user-nav{

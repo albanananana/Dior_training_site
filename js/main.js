@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   effect: 'fade',
   autoplay: {
-    delay: 7500,
+    delay: 5500,
     disableOnInteraction: false,
   },
   // Navigation arrows
