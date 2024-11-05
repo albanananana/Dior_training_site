@@ -141,6 +141,7 @@ body {
 .container-arrow {
 	position: relative;
 	max-width: 1200px;
+	top: 25px;
 }
 
 .top .swiper{
@@ -152,3 +153,4 @@ body {
 	right: auto;
 	bottom: ;
 }
+
