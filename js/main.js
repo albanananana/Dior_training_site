@@ -18,6 +18,7 @@ const swiperAbout = new Swiper(".about__slider", {
   slidesPerView: 4,
   spaceBetween: 20,
   freeMode: true,
+  loop: false,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

@@ -215,6 +215,7 @@ body {
 	padding-left: 200px;
 	margin-left: -200px;
 	padding-bottom: 20px;
+	overflow: scroll;
 }
 .swiper {
 }
@@ -225,9 +226,11 @@ body {
 .about__item {
 }
 .about__arrow {
-	margin-left: -188px;
+	position: relative;
+	margin-left: -183px;
+	margin-top: 20px;
 }
 
 .container-arrow .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
-	opacity: 1;
+	opacity: 0.7;
 }
