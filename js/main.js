@@ -15,7 +15,7 @@ const swiperTop = new Swiper('.top__swiper', {
 
 
 const swiperAbout = new Swiper(".about__slider", {
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 20,
   freeMode: true,
   loop: false,
