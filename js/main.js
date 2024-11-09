@@ -15,7 +15,7 @@ const swiperTop = new Swiper('.top__swiper', {
 
 
 const swiperAbout = new Swiper(".about__slider", {
-  slidesPerView: 3,
+  slidesPerView: 4,
   spaceBetween: 20,
   freeMode: true,
   loop: false,
@@ -26,7 +26,7 @@ const swiperAbout = new Swiper(".about__slider", {
 });
 
 document.querySelectorAll('.accordeon__triger').forEach((item) => {
-  item.addEventListener('clic', () => {
+  item.addEventListener('click', () => {
     item.parentNode.classList.toggle('accordeon__item--active')
   })
 });
