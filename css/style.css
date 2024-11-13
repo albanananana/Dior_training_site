@@ -254,6 +254,19 @@ body {
 	transition: all .3s ease;
 }
 
+.accordeon__item--active .accordeon__item::before {
+	content: '';
+	transform: rotateX(180deg);
+	position: absolute;
+	width: 16px;
+	height: 51px;
+	background-image: url(/images/arrow-down.svg);
+	right: 85px;
+	top: 50px;
+	transition: all .5s ease;
+
+}
+
 .accordeon__item:hover::before{
 	top: 55px;
 }
@@ -267,6 +280,7 @@ body {
 	bottom: -73px;
 	left: 268px;
 }
+
 
 .accordeon__triger{
 	display: flex;
@@ -294,6 +308,8 @@ body {
 .accordeon__item--active .accordeon__content{
 	display: block;
 }
+
+.accordeon__item--active .
 
 .accordeon__content p {
 	margin-bottom: 10px;
