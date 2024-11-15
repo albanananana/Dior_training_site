@@ -2,10 +2,10 @@ const swiperTop = new Swiper('.top__swiper', {
   // Optional parameters
   effect: 'fade',
   // loop: true,
-  // autoplay: {
-  //   delay: 5500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false,
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
