@@ -294,7 +294,7 @@ body {
 	background-image: url(/images/accordeon-img.jpg);
 	width: 65px;
 	height: 120px;
-	bottom: -73px;
+	bottom: -103px;
 	left: 268px;
 }
 
@@ -515,6 +515,9 @@ body {
 	.about__btn {
 		margin-top: 30px;
 	}
+	.accordeon__inner {
+		padding-left: 0;
+	}
 }
 @media (max-width: 992px) {
 	.header {
@@ -565,6 +568,23 @@ body {
 	}
 }
 
+@media (max-width: 830px) {
+	.accordeon__triger{
+		display: block;
+		padding-top: 10px;
+	}	
+	.accordeon__triger-title {
+		padding-bottom: 10px;
+	}
+	.accordeon__item::before {
+		top: 0;
+		bottom: 0;
+		right: 25px;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+}
+
 @media (max-width: 475px) {
 	.top-slide__img {
 		display: none;
@@ -590,6 +610,12 @@ body {
 	}
 	.about__slider{
 		width: 1460px;
+	}
+	.accordeon__item {
+		padding: 0 80px 0 0;
+	}
+	.accordeon__triger-text {
+		margin-right: 0;
 	}
 }
 
