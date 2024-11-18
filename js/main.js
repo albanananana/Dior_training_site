@@ -30,3 +30,4 @@ document.querySelectorAll('.accordeon__triger').forEach((item) => {
     item.parentNode.classList.toggle('accordeon__item--active')
   })
 });
+

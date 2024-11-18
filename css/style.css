@@ -495,6 +495,15 @@ body {
 	margin-right: 101px;
 }
 
+@media (max-width: 1640px) {
+	.products__items{
+		position: static;
+	}
+	.products__title{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
 @media (max-width: 1230px) {
 	.container-arrow {
 		max-width: 100px;
