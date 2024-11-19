@@ -602,12 +602,18 @@ body {
 }
 
 @media (max-width: 750px) {
+	.products{
+		margin-bottom: 40px;
+	}
 	.products__items{
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 	.products__item{
 		margin-bottom: 60px;
+	}
+	.video__box{
+		min-height: 400px;
 	}
 }
 
@@ -660,5 +666,8 @@ body {
 		padding-top: 30px;
 		text-align: right;
 		width: 100%;
+	}
+	.video__box{
+		min-height: 250px;
 	}
 }
