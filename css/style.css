@@ -508,6 +508,9 @@ body {
 	.container-arrow {
 		max-width: 100px;
 	}
+	.products__item-img{
+		width: 95%;
+	}
 }
 
 @media (max-width: 1040px) {
@@ -591,6 +594,20 @@ body {
 		right: 25px;
 		margin-top: auto;
 		margin-bottom: auto;
+	}
+	.products__item-step{
+		font-weight: 500;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 750px) {
+	.products__items{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.products__item{
+		margin-bottom: 60px;
 	}
 }
 
