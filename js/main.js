@@ -7,6 +7,9 @@ const swiperTop = new Swiper('.top__swiper', {
   //   disableOnInteraction: false,
   // },
   // Navigation arrows
+  pagination: {
+    el: ".swiper-pagination",
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -19,6 +22,9 @@ const swiperAbout = new Swiper(".about__slider", {
   spaceBetween: 20,
   freeMode: true,
   // loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -30,4 +36,5 @@ document.querySelectorAll('.accordeon__triger').forEach((item) => {
     item.parentNode.classList.toggle('accordeon__item--active')
   })
 });
+
 

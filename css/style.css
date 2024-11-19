@@ -494,6 +494,9 @@ body {
 	margin-left: 193px;
 	margin-right: 101px;
 }
+.swiper-pagination{
+	display: none;
+}
 
 @media (max-width: 1640px) {
 	.products__items{
@@ -570,6 +573,15 @@ body {
 
 	.top-slide__text {
 		font-size: 12px;
+	}
+	.container-arrow{
+		display: none;
+	}
+	.swiper-pagination{
+		display: block;
+	}
+	.swiper-pagination-bullet-active{
+		background: #7449BB;
 	}
 }
 
